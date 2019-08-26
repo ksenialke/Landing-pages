@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+
+body{
+    /*background: #ffb3da;*/
+    /*padding-top: 5em;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+
+.bg{
+    background-image: url("https://assets.bonappetit.com/photos/59baee861a02342849ac6ad8/master/pass/VHH-foods-mai-tai.jpg");
+    height: 400px;
+}
+
+img{
+    width:100%;
+    max-height:100vh;
+    opacity: 0.75;
+}
+.typewriter h1{
+    color: #f5e3b5;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    overflow: hidden;
+    border-right: .15em solid #4a4740;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+}
+
+@keyframes typing{
+    from{width:0}
+    to{width: 100%}
+}
+
+@keyframes blink-caret {
+    from, to{border-color: transparent}
+    50%{border-color: #f5e3b5}
+
+}
+
+/* Container holding the image and the text */
+.cntr {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#first-section{
+    padding: 50px 0;
+}
+
+p, h2{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#needsPadding{
+    padding-bottom: 40px
+}
+
+hr{
+    color: #f5e3b5;
+    border: 1px solid;
+}
+
+
+.circle{
+    border-radius: 50px;
+    background: #4a4740;
+    padding: 20px;
+    /*width: 200px;*/
+    height: 50px;
+    text-align: center;
+}
+
+
+.gallery {
+    padding: 100px 0 40px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+.gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+
+@media (max-width: 450px) {
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+}
+img{
+    padding-right: 20px;
+}
+
+
+/*.text-in-menu{*/
+    /*padding-left:10px;*/
+/*}*/
+
+.menu-title{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.color-container{
+    background-color: #f5e3b5;
+    padding: 28px 0;
+}
+
+/*#owner{*/
+    /*height: 200px;*/
+    /*width: 200px;*/
+/*}*/
+
+#polygon-container{
+    clip-path: polygon(50% 0%, 100% 20%, 100% 100%, 50% 100%, 0 86%, 0 0);
+    background-color: #f5e3b5;
+}
+li{
+    list-style: none;
+    padding: 20px;
+}
+h3{
+    color: #4a4740;
+}
+.sexy_line {
+    margin: 25px 0;
+    height: 1px;
+    background: #4a4740;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+
+#photo{
+    width: 100%;
+}
+
+#photo2{
+    width: 100%;
+}
+
+
