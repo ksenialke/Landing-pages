@@ -1,0 +1,23 @@
+.hero {
+  padding: 20vh 0;
+  background: linear-gradient(to right, #EECDA3, #EF629F); }
+
+.features {
+  background: #222;
+  color: white; }
+
+.pricing {
+  text-align: center; }
+
+.featured-price {
+  transform: scale(1.1);
+  z-index: 10;
+  background: #222; }
+
+footer {
+  padding: 10vh 0;
+  text-align: center;
+  background: black;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
